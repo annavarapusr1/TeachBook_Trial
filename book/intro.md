@@ -4,7 +4,7 @@
 ```{admonition} IITM Workshop Note
 :class: warning
 
-This textbook reuses MUDE materials as much as possible to illustrate our teaching material in a realistic way. Notes to IITM Workshop will be added in boxes like this as needed to provide additional information.
+This textbook reuses MUDE materials as much as possible to illustrate our teaching material in a realistic way. Notes to IITM Workshop will be added in boxes like this as needed to provide additional information. This is a forked repository.
 ```
 
 Welcome to the MUDE textbook for the 2024-25 academic year. This is where assigned reading is located, along with interactive exercises to practice and study the module material.
