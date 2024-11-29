@@ -6,7 +6,7 @@ parts:
     numbered: 2
     chapters: 
     - file: numerical_methods/overview
-      title: Numerical Modelling
+      title: Numerical Integration
       sections:
       - file: numerical_methods/1-revision-of-concepts.ipynb
       - file: numerical_methods/2-derivative.ipynb
@@ -19,6 +19,7 @@ parts:
       - file: numerical_methods/7-multistep_and_multistage_methods.ipynb
       - file: numerical_methods/8-boundary-value-problem.ipynb
       - file: numerical_methods/9-starting_with_PDEs.ipynb
+      - file: numerical_methods/10-num_int.md
 
   - caption: Programming
     numbered: false
