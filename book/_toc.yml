@@ -1,0 +1,82 @@
+format: jb-book
+root: intro
+
+parts:
+  - caption: Theory Topics
+    numbered: 2
+    chapters: 
+    - file: numerical_methods/overview
+      title: Numerical Modelling
+      sections:
+      - file: numerical_methods/1-revision-of-concepts.ipynb
+      - file: numerical_methods/2-derivative.ipynb
+      - file: numerical_methods/3-fdm-introduction.ipynb
+      - file: numerical_methods/4-taylor-series-expansion.ipynb
+        sections:
+        - file: numerical_methods/taylor-series-exercise.ipynb
+      - file: numerical_methods/5-numerical-integration.ipynb
+      - file: numerical_methods/6-initial-value-problem-singlestep.ipynb
+      - file: numerical_methods/7-multistep_and_multistage_methods.ipynb
+      - file: numerical_methods/8-boundary-value-problem.ipynb
+      - file: numerical_methods/9-starting_with_PDEs.ipynb
+
+  - caption: Programming
+    numbered: false
+    chapters:
+    - file: programming/week_1_1
+      title: "Week 1.1: Getting Started!"
+      sections:
+      - file: programming/week_1_1/environment-intro
+        title: Computers and Environments
+        sections:
+        - file: programming/week_1_1/computers
+          title: Computers
+        - file: programming/week_1_1/environments
+          title: Computing Environments
+      - file: programming/week_1_1/install
+        title: Software Installation
+        sections:
+        - file: programming/week_1_1/install/python/miniconda
+          title: Install Miniconda
+          sections:
+          - file: programming/week_1_1/install/common/hidden
+            title: Hidden Files
+          - file: programming/week_1_1/install/common/cli
+            title: Command Line Interface (CLI)
+          - file: programming/week_1_1/install/common/env_vars_windows
+            title: Environment Variables (Windows)
+        - file: programming/week_1_1/install/ide/vsc
+          title: Visual Studio 
+          sections:
+          - file: programming/week_1_1/install/ide/vsc/extensions
+            title: Extensions
+      - file: programming/week_1_1/files
+        title: Files and Folders
+      - file: programming/week_1_1/warmup
+        title: Python Warmup
+
+  - caption: Fundamental Concepts
+    numbered: 2
+    chapters: 
+    - file: fundamentals/00_01a_PreMath
+    - file: fundamentals/00_01b_PreMath
+    - file: fundamentals/00_01c_PreMath
+    - file: fundamentals/00_02_PreMath
+    - file: fundamentals/00_03_PreMath
+    - file: fundamentals/prob-background.md   
+    - file: fundamentals/prob-rv.md
+    - file: fundamentals/00_04_MeanVar
+    - file: fundamentals/prob_tables/overview
+      title: Probability Tables
+      sections:
+      - file: fundamentals/prob_tables/normal
+        title: Normal
+      - file: fundamentals/prob_tables/chi2
+        title: Chi-Squared
+    - file: probability/python
+    - file: fundamentals/eemc-stuff
+
+  - caption: Test
+    chapters:
+    - file: test.ipynb
+    - file: test2
